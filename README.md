@@ -2,8 +2,6 @@
 
 A responsive e-commerce web app for electronics and gadgets, built with React and Tailwind CSS.
 
-Live demo: [coming soon]
-
 ---
 
 ## About
@@ -51,14 +49,6 @@ Opens at http://localhost:3000
 
 Email:    demo@techmart.com
 Password: demo123
-
-## Project Structure
-
-src/
-├── context/        # Auth and Cart logic
-├── components/     # Navbar, Footer, CartSidebar, ProductCard
-├── pages/          # Home, Products, ProductDetail, Login, Register, Checkout
-└── data/           # Product catalog
 
 ---
 
