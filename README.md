@@ -1,110 +1,81 @@
-# 🛍️ TechMart — Electronics & Gadgets Store
+# TechMart
 
-A production-ready e-commerce frontend built with **React + Tailwind CSS**.
+A responsive e-commerce web app for electronics and gadgets, built with React and Tailwind CSS.
 
-## ⚡ Quick Start
+Live demo: [coming soon]
 
-```bash
-# 1. Install dependencies
+---
+
+## About
+
+TechMart is a frontend e-commerce project I built to practice React fundamentals — routing, state management with Context API, component design, and responsive layouts with Tailwind CSS.
+
+It has no backend. Auth and cart data are handled entirely in the browser using localStorage.
+
+---
+
+## Features
+
+- Browse and search products by category, price, and name
+- Product detail page with color picker and quantity selector
+- Slide-in cart with quantity controls and live total
+- Register and login with form validation
+- 3-step checkout — Shipping, Payment, Order Review
+- Fully responsive on mobile, tablet, and desktop
+- Toast notifications for user feedback
+
+---
+
+## Tech Stack
+
+- React 18
+- React Router v6
+- Tailwind CSS
+- Context API (Auth + Cart)
+- react-hot-toast
+
+---
+
+## Getting Started
+
+git clone https://github.com/YOUR_USERNAME/TechMart.git
+cd TechMart
 npm install
-
-# 2. Start the app
 npm start
-```
-Open **http://localhost:3000** 🎉
+
+Opens at http://localhost:3000
 
 ---
 
-## 🗂️ Project Structure
+## Demo Account
 
-```
-techmart/
-├── public/index.html
-├── tailwind.config.js    ← Tailwind customization
-├── postcss.config.js
-└── src/
-    ├── index.css         ← Tailwind directives + custom components
-    ├── App.js            ← Routes + Providers
-    ├── context/
-    │   ├── AuthContext.js  ← Login/Register/Logout
-    │   └── CartContext.js  ← Cart state management
-    ├── data/
-    │   └── products.js   ← 12 product catalog
-    ├── components/
-    │   ├── layout/
-    │   │   ├── Navbar.js
-    │   │   └── Footer.js
-    │   ├── cart/
-    │   │   └── CartSidebar.js
-    │   └── product/
-    │       └── ProductCard.js
-    └── pages/
-        ├── Home.js          ← Hero + categories + featured
-        ├── Products.js      ← Listing + filter + search
-        ├── ProductDetail.js ← Single product + specs
-        ├── Login.js         ← Sign in form
-        ├── Register.js      ← Sign up with password strength
-        └── Checkout.js      ← 3-step checkout flow
-```
+Email:    demo@techmart.com
+Password: demo123
+
+## Project Structure
+
+src/
+├── context/        # Auth and Cart logic
+├── components/     # Navbar, Footer, CartSidebar, ProductCard
+├── pages/          # Home, Products, ProductDetail, Login, Register, Checkout
+└── data/           # Product catalog
 
 ---
 
-## ✨ Features
+## What I Learned
 
-- 🏠 **Home** — Hero banner, categories, featured products, sale section
-- 🛍️ **Products** — Filter by category, price range, sort, search
-- 📦 **Product Detail** — Color picker, quantity selector, specs table, related products
-- 🛒 **Cart Sidebar** — Slide-in cart with quantity management
-- 🔐 **Auth** — Register + Login with localStorage (no backend needed)
-- 💳 **Checkout** — 3-step: Shipping → Payment → Review → Confirmation
-- 📱 **Responsive** — Works perfectly on mobile, tablet, desktop
-- 🔔 **Toast Notifications** — Add to cart, login success, errors
-- ⚡ **Animations** — Fade-up cards, hover effects, loading spinners
+- Managing global state with Context API without Redux
+- Building protected routes with React Router
+- Structuring a mid-size React project cleanly
+- Responsive design patterns with Tailwind CSS
 
 ---
 
-## 🎨 Tailwind Usage Examples
+## Roadmap
 
-```jsx
-// Buttons
-<button className="bg-blue-500 hover:bg-blue-600 text-white px-5 py-2.5 rounded-xl">
-  Click Me
-</button>
-
-// Cards
-<div className="bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-all">
-  Content
-</div>
-
-// Grid layout
-<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-  ...
-</div>
-
-// Custom component classes (defined in index.css)
-<button className="btn-primary">Buy Now</button>
-<input className="input-field" />
-<div className="card">...</div>
-```
+- [ ] Connect to a real backend (Node.js + MongoDB)
+- [ ] Add wishlist feature
+- [ ] Product reviews and ratings
+- [ ] Payment gateway integration
 
 ---
-
-## 🔐 Auth Notes
-
-Auth uses **localStorage** (no backend required for this project). 
-
-To test:
-1. Register at `/register`
-2. Login at `/login`
-3. Use demo: `demo@techmart.com` / `demo123`
-
----
-
-## 🚀 Deploy to Vercel
-
-```bash
-npm install -g vercel
-vercel
-```
-
-Or push to GitHub → connect at vercel.com — auto-deploys on every push!
