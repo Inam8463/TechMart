@@ -36,10 +36,10 @@ It has no backend. Auth and cart data are handled entirely in the browser using 
 
 ## Getting Started
 
-git clone https://github.com/YOUR_USERNAME/TechMart.git
-cd TechMart
-npm install
-npm start
+git clone https://github.com/Inam8463/TechMart.git <br>
+cd TechMart <br>
+npm install <br>
+npm start <br>
 
 Opens at http://localhost:3000
 
