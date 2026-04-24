@@ -1,8 +1,8 @@
-"homepage": "https://inam8463.github.io/TechMart",
 {
   "name": "techmart",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://inam8463.github.io/TechMart",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
