@@ -10,6 +10,8 @@ TechMart is a frontend e-commerce project I built to practice React fundamentals
 
 It has no backend. Auth and cart data are handled entirely in the browser using localStorage.
 
+Live Demo: (https://electronics-tech-mart.netlify.app/)
+
 ---
 
 ## Features
