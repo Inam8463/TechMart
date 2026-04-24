@@ -2,8 +2,6 @@
 
 A responsive e-commerce web app for electronics and gadgets, built with React and Tailwind CSS.
 
-Live demo: [coming soon]
-
 ---
 
 ## About
@@ -38,10 +36,10 @@ It has no backend. Auth and cart data are handled entirely in the browser using 
 
 ## Getting Started
 
-git clone https://github.com/YOUR_USERNAME/TechMart.git
-cd TechMart
-npm install
-npm start
+git clone https://github.com/Inam8463/TechMart.git <br>
+cd TechMart <br>
+npm install <br>
+npm start <br>
 
 Opens at http://localhost:3000
 
@@ -51,14 +49,6 @@ Opens at http://localhost:3000
 
 Email:    demo@techmart.com
 Password: demo123
-
-## Project Structure
-
-src/
-├── context/        # Auth and Cart logic
-├── components/     # Navbar, Footer, CartSidebar, ProductCard
-├── pages/          # Home, Products, ProductDetail, Login, Register, Checkout
-└── data/           # Product catalog
 
 ---
 
