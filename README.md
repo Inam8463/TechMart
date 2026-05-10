@@ -2,6 +2,11 @@
 
 A responsive e-commerce web app for electronics and gadgets, built with React and Tailwind CSS.
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20App-blue?style=flat-square)](https://electronics-tech-mart.netlify.app/)
+[![GitHub](https://img.shields.io/badge/Source%20Code-GitHub-black?style=flat-square&logo=github)](https://github.com/Inam8463/TechMart)
+![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-06B6D4?style=flat-square&logo=tailwindcss)
+
 ---
 
 ## About
